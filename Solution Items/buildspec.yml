@@ -3,8 +3,8 @@ version: 0.2
     
 env:
    variables:
-     PROJECT: awsdemoapp
-     DOTNET_CORE_RUNTIME: 3.1
+     PROJECT: WebApp
+     DOTNET_CORE_RUNTIME: 6.0
 
 phases:   
   install:
