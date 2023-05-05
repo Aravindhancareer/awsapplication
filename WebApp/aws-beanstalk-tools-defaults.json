@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "AwsWebApp",
+    "environment"    : "AwsWebApp-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0da0224b6ae909e0f\";\"aws:ec2:vpc,Subnets\"=\"subnet-01ccaf1e17b826d08\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.5.3 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "awswebapp-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "DemoKey",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "none"
+}
